@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usługi</title>
+    <link rel="stylesheet" type="text/css" href="uslugi.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="menu_up">
+        <div class="ikony">
+            <div class="ikona">
+                <a href="https://twitter.com/?lang=pl"target="_blank">
+                <span class="icon">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </span>
+                </a>
+            </div>
+            <div class="ikona">
+                <a href="https://pl-pl.facebook.com/"target="_blank">
+                <span class="icon">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </span>
+                </a>
+            </div>
+            <div class="ikona">
+                <a href="https://www.google.com/intl/pl/account/about/"target="_blank">
+                <span class="icon">
+                    <ion-icon name="logo-google"></ion-icon>
+                </span>
+                </a>
+            </div>
+        </div>
+    <div class="navigation">
+        <ul>
+            <li class="list active">
+                <a href="projekt-zaliczeniowy.html">
+                    <span class="icon">
+                        <ion-icon name="home-outline"></ion-icon>
+                    </span>
+                    <span class="text">Home</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="podstrona-cv.html">
+                    <span class="icon">
+                        <ion-icon name="person-outline"></ion-icon>
+                    </span>
+                    <span class="text">CV</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="podstrona-login.html">
+                    <span class="icon">
+                        <ion-icon name="chatbubble-outline"></ion-icon>
+                    </span>
+                    <span class="text">Logowanie</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="podstrona-flota.html">
+                    <span class="icon">
+                        <ion-icon name="camera-outline"></ion-icon>
+                    </span>
+                    <span class="text">Flota</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="podstrona-uslugi.html">
+                    <span class="icon">
+                        <ion-icon name="albums-outline"></ion-icon>
+                    </span>
+                    <span class="text">Usługi</span>
+                </a>
+            </li>
+            <div class="indicator"></div>
+        </ul>
+    </div>
+    </div>
+    <div class="uslugi">USŁUGI</div>
+    <div class="container">
+        <div class="okno">
+            <div class="tekst1"><h2>Przewóz towarów drobnicowych</h2></div>
+            <div class="zdj1"></div>
+            <div class="tekst2">Firma SpeedTruck oferuje przewóz towarów drobnicowych o różnorodnych gabarytach i wadze. Może to obejmować przewóz paczek, palet, skrzyń czy innych mniejszych towarów.</div>
+        </div>
+        <div class="okno">
+            <div class="tekst1"><h2>Przewóz chłodniczy</h2></div>
+            <div class="zdj2"></div>
+            <div class="tekst2">Firma posiada specjalistyczne pojazdy do przewozu towarów wymagających utrzymania określonej temperatury, takich jak żywność, leki czy produkty chemiczne.</div>
+        </div>
+        <div class="okno">
+            <div class="tekst1"><h2>Transport ADR</h2></div>
+            <div class="zdj3"></div>
+            <div class="tekst2">SpeedTruck oferuje przewóz towarów niebezpiecznych zgodnie z przepisami ADR (Europejskiego Porozumienia Dotyczącego Przewozu Drogowego Towarów Niebezpiecznych), posiadając odpowiednie certyfikaty i spełniając wymogi bezpieczeństwa.</div>
+        </div>
+        <div class="okno">
+            <div class="tekst1"><h2>Transport specjalistyczny</h2></div>
+            <div class="zdj4"></div>
+            <div class="tekst2">Firma jest w stanie zaoferować transport specjalistyczny dla towarów o nietypowych wymiarach, takich jak długie, szerokie czy ciężkie ładunki, wymagające specjalnych procedur załadunku, rozładunku czy zabezpieczenia.</div>
+        </div>
+        <div class="okno">
+            <div class="tekst1"><h2>Transport e-commerce</h2></div>
+            <div class="zdj5"></div>
+            <div class="tekst2">Firma może obsłużyć przewóz towarów zakupionych online, zarówno dla małych jak i dużych przesyłek, dostosowując się do wymagań e-commerce, takich jak terminy dostaw, śledzenie przesyłek czy integracje z platformami sprzedażowymi.</div>
+        </div>
+    </div>
+    <div class="stopka">
+        <div class="nawigacja_stopka">
+            <div class="button_stopka"><a href="projekt-zaliczeniowy.html">HOME</a></div>
+            <div class="button_stopka"><a href="podstrona-cv.html">O NAS</a></div>
+            <div class="button_stopka"><a href="podstrona-flota.html">FLOTA</a></div>
+            <div class="button_stopka"><a href="podstrona-login.html">KONTAKT</a></div>
+            <div class="button_stopka"><a href="podstrona-uslugi.html">USŁUGI</a></div>
+        </div>
+        <div class="footer">Copyright | Wszelkie prawa zastrzeżone. Oskar Ogonek - Speedtruck sp. z o.o.</div>
+    </div>
+    <script>
+        const list = document.querySelectorAll('.list');
+        function activeLink(){
+            list.forEach((item) =>
+            item.classList.remove('active'));
+            this.classList.add('active');
+        }
+        list.forEach((item) =>
+        item.addEventListener('click',activeLink));
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
