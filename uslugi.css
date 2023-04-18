@@ -189,7 +189,7 @@
 .zdj1{
     width: 80%;
     height: 80%;
-    background-image: url(photos/drobnicowy.jpg);
+    background-image: url(Photos/drobnicowy.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -202,13 +202,13 @@
 .zdj2{
     width: 80%;
     height: 80%;
-    background-image: url(photos/chlodnica.jpg);
+    background-image: url(Photos/chlodnica.jpg);
     border-radius: 10px;
 }
 .zdj3{
     width: 80%;
     height: 80%;
-    background-image: url(photos/ADR.jpg);
+    background-image: url(Photos/ADR.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -216,7 +216,7 @@
 .zdj4{
     width: 80%;
     height: 80%;
-    background-image: url(photos/specjalistyczny.webp);
+    background-image: url(Photos/specjalistyczny.webp);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -224,7 +224,7 @@
 .zdj5{
     width: 80%;
     height: 80%;
-    background-image: url(photos/commerce.jpg);
+    background-image: url(Photos/commerce.jpg);
     background-position: center;
     background-size:cover;
     border-radius: 10px;

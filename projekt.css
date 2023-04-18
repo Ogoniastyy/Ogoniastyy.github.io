@@ -264,7 +264,7 @@ section #baner1{
 }
 
 section #baner1::before{
-    background-image: url(photos/baner1.jpg);
+    background-image: url(Photos/baner1.jpg);
     transform: translate(-1px) scale(2);
 }
 section article{
@@ -284,7 +284,7 @@ section article p{
     text-align: center;
 }
 section #baner2{
-    background: url(photos/baner2.jpg);
+    background: url(Photos/baner2.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -294,7 +294,7 @@ section #baner2{
     margin-bottom: 30px;
 }
 section #baner2::before{
-    background-image: url(photos/baner2.jpg);
+    background-image: url(Photos/baner2.jpg);
     transform: translateZ(-1px) scale(2);
 }
 
@@ -309,7 +309,7 @@ section #baner2::before{
     width: 350px;
     height: 350px;
     margin-right: 5%;
-    background-image: url(photos/zdjecie1.jpg);
+    background-image: url(Photos/zdjecie1.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 3%;
@@ -322,7 +322,7 @@ section #baner2::before{
     width: 350px;
     height: 350px;
     margin-right: 5%;
-    background-image: url(photos/zdjecie2.jpg);
+    background-image: url(Photos/zdjecie2.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 3%;
@@ -334,7 +334,7 @@ section #baner2::before{
 .zdjecie3{
     width: 350px;
     height: 350px;
-    background-image: url(photos/zdjecie3.jpg);
+    background-image: url(Photos/zdjecie3.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 3%;
@@ -499,7 +499,7 @@ img{
 }
 
 .photo1{
-    background-image: url(photos/photo1.jpg);
+    background-image: url(Photos/photo1.jpg);
     width: 450px;
     height: 480px;
     margin-left: 50px;
@@ -533,7 +533,7 @@ img{
 .photo2{
     width: 40%;
     height: 400px;
-    background-image: url(photos/photo2.webp);
+    background-image: url(Photos/photo2.webp);
     background-size: cover;
     background-position: center;
     -webkit-box-shadow: 0px 0px 39px 0px rgba(66, 68, 90, 1);
@@ -544,7 +544,7 @@ img{
 .photo3{
     width: 40%;
     height: 400px;
-    background-image: url(photos/photo3.jpg);
+    background-image: url(Photos/photo3.jpg);
     background-size: cover;
     background-position: center;
     -webkit-box-shadow: 0px 0px 39px 0px rgba(66, 68, 90, 1);
@@ -555,7 +555,7 @@ img{
 .photo4{
     width: 40%;
     height: 400px;
-    background-image: url(photos/photo4.jpg);
+    background-image: url(Photos/photo4.jpg);
     background-size: cover;
     background-position: center;
     -webkit-box-shadow: 0px 0px 39px 0px rgba(66, 68, 90, 1);
@@ -566,7 +566,7 @@ img{
 .photo5{
     width: 40%;
     height: 400px;
-    background-image: url(photos/photo5.jpg);
+    background-image: url(Photos/photo5.jpg);
     background-size: cover;
     background-position: center;
     -webkit-box-shadow: 0px 0px 39px 0px rgba(66, 68, 90, 1);
